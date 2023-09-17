@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/YourSSU?serverTimezone=UTC&characterEncoding=UTF-8
+    username: testuser
+    password: leo!990706
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
+    show-sql: true
+
+
+server:
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: false
